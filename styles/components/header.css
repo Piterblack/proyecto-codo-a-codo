@@ -1,0 +1,214 @@
+/* {
+  outline: 1px solid limegreen !important;
+}*/
+.itim-regular {
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.anton-regular {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+/** Header **/
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 16px;
+    height: 100px;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    background-color: rgba(33, 33, 33, 1);
+    color: #ffff;
+    position: fixed;
+    }
+
+.logo-header {
+        margin-top: 50px;
+        height: 120%;
+        display: flex;
+    }
+
+@media screen and (min-width: 800px) {
+    img.logo-header {
+    width: 100%;
+    height: 100%;
+    margin-top:  30px;
+    
+}
+}
+
+
+#menu-principal {
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Jost";
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li.menu-item {
+    display: flex;
+    padding: 30px;
+    color: #ffff;
+}
+
+li.menu-item:hover,
+  li.menu-item a.active,
+  a.button:hover{
+      background-color: rgba(37, 125, 99, 1);
+      border-radius: 30px;
+      transition:background-color, 0,3s;
+}
+
+.iconos {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    width: 50px;
+    max-width: 100px;
+    max-height: 100px;
+    margin: 100px;
+    }
+    
+
+/* Contenido de imagen de portada  
+.contenedor-imagen {
+    position: relative;
+}*/ 
+
+.img-portada {
+    width: 100%;
+    left: 60%;
+}
+
+.texto-superpuesto {
+    position: absolute;
+    top: 70%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    width: 65%; 
+    text-align: center; 
+    color: #ffff;
+}
+
+.texto-superpuesto h2 {
+    background-color: #257D63;
+    padding: 10px;
+    font-size: 3vw; /* Tamaño de fuente relativo al ancho de la ventana */
+    color: #ffff;
+    font-size: 3vw;
+    font-family: "Anton";
+}
+
+.contenedor-texto {
+    background-color: rgba(33, 60, 54, 0.5);
+    font-family: "Anton";
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.tex-porcentaje {
+    font-size: 23vw;
+}
+
+.colum2 {
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    align-items: center;
+}
+
+.porcentaje {
+    font-size: 10vw; 
+    margin-top: 10%;
+}
+
+.prod-seleccionados {
+    font-size: 3vw; 
+    text-align: start;
+    margin-bottom: 10%;
+}
+
+/* ****************************************************************************** */
+
+.envio-gratis{
+    background-color: #00AC8D;
+    height: 6vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.envio-gratis h3 {
+   color: #ffff;
+   font-size: 2vw;
+}
+.logo-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vw;
+   
+}
+.logo-main img{
+
+    width: 15vw;
+    
+}
+
+/* MAIN */
+
+.text-recomendado {
+    font-size: 2vw;
+    color: #ffff;
+    padding: 1vw;
+}
+
+
+
+.mi-div {
+    
+    display: grid; /* Cambia flex a grid */
+    grid-template-columns: repeat(4, 1fr); /* Define tres columnas de igual ancho */
+    place-items: center;
+    text-align: center;
+   
+  
+   
+}
+.producto{
+    text-decoration: none;
+    color: #ffff;
+    
+ 
+    
+  
+    
+}
+.mi-div h3{
+    text-align: center;
+}
+.mi-div p {
+    color: #A3ECD6;
+}
+
+
+
+
+
